@@ -1,0 +1,45 @@
+/* ProductPage.css */
+.product-page {
+  padding: 20px;
+  text-align: center;
+  background-color: #fff; /* White background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 600px; /* Center the container with a max width */
+}
+
+.product-page img {
+  max-width: 80%; /* Shrink the image */
+  height: auto;
+  display: block;
+  margin: 0 auto 20px auto; /* Center the image and add bottom margin */
+  border-radius: 10px; /* Optional: add rounded corners */
+}
+
+.product-page h2 {
+  font-size: 28px;
+  margin: 20px 0;
+  color: #007bff; /* Blue text */
+}
+
+.product-page p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333; /* Dark text */
+}
+
+.product-page button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #000000; /* Black background */
+  color: #fff; /* White text */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.product-page button:hover {
+  background-color: #007bff; /* Blue on hover */
+}

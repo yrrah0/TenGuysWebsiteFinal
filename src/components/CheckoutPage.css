@@ -1,0 +1,56 @@
+/* CheckoutPage.css */
+.checkout-page {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px; /* Center the container with a max width */
+  }
+  
+  .checkout-page h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #000000; /* Blue text */
+  }
+  
+  .checkout-page .cart-total h3 {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #ff0000; /* Red text */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  

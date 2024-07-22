@@ -1,0 +1,52 @@
+/* ConfirmationPage.css */
+.confirmation-page {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px; /* Center the container with a max width */
+  }
+  
+  .confirmation-page h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #007bff; /* Blue text */
+  }
+  
+  .confirmation-page p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333; /* Dark text */
+  }
+  
+  .confirmation-page strong {
+    color: #ff0000; /* Red text */
+  }
+  
+  .confirmation-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .confirmation-table th, .confirmation-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .confirmation-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .cart-total {
+    margin-top: 20px;
+  }
+  
+  .cart-total h3 {
+    color: #ff0000; /* Red text */
+  }
+  

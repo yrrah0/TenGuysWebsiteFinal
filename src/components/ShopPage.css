@@ -1,0 +1,63 @@
+
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.controls input,
+.controls select {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #ffffff; /* Dark background */
+  color: #000000; /* White text */
+  border: 1px solid #000000; /* Blue border */
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Ensure the content is pushed to the bottom */
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff; /* Light background */
+  height: 100%; /* Ensure all cards have the same height */
+  box-sizing: border-box;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-card h3 {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #000000; /* Blue text */
+}
+
+.product-card p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #000000; /* White text */
+}
+
+.product-card button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #000000; /* Red background */
+  color: #fff; /* White text */
+  border: none;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+  background-color: #007bff; /* Blue on hover */
+}

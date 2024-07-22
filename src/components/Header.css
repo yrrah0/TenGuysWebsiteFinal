@@ -1,0 +1,66 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff; /* Light background */
+  color: #000000; /* Black text */
+  font-family: 'Georgia', serif;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensure space between logo and title */
+  padding: 1rem;
+  width: 100%;
+}
+
+.header-top .logo {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+.header-top .logo img {
+  height: 80px; /* Increase the height to make the logo bigger */
+}
+
+.header-top .title {
+  flex: 1; /* Allow title to grow and center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-top .title h1 {
+  margin: 0;
+}
+
+.header-bottom {
+  display: flex;
+  justify-content: center; /* Center the navigation links */
+  background-color: #000000; /* Black background */
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.header-bottom nav {
+  display: flex;
+  justify-content: space-around; /* Space out the navigation links */
+  width: 50%; /* Adjust this value based on your preference */
+}
+
+.header-bottom nav a {
+  color: #fff; /* White links */
+  text-decoration: none;
+  padding: 0 1rem;
+}
+
+.header-bottom nav a:hover {
+  color: #ff0000; /* Red on hover */
+  text-decoration: underline;
+}
+
+.header-bottom nav .fas {
+  margin-right: 5px; /* Add some space between the icon and the text */
+  color: #fff; /* White icon */
+}

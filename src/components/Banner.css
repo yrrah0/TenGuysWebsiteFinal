@@ -1,0 +1,96 @@
+.banner {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  background-color: transparent; /* Ensure the banner has no background color */
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px; /* Optional: add rounded corners */
+  border: 2px solid #007bff; /* Blue border */
+  display: block;
+}
+
+.banner-description {
+  max-width: 1200px; /* Adjust based on your design */
+  margin-top: 1rem;
+  padding: 1rem;
+  color: #000000; /* White text */
+  border-radius: 10px; /* Optional: add rounded corners */
+  text-align: center; /* Center-align text */
+}
+
+.banner-description h2 {
+  margin: 0.5rem 0;
+  color: #000000; /* Red text */
+}
+
+.banner-description p {
+  margin: 0.5rem 0;
+  text-align: left; /* Ensure paragraph text is left-aligned */
+}
+
+.featured-items-section {
+  max-width: 1200px; /* Adjust based on your design */
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center; /* Center-align text */
+}
+
+.featured-items {
+  display: flex;
+  justify-content: space-around; /* Space out the featured items */
+  margin-top: 1rem;
+}
+
+.featured-item {
+  max-width: 300px; /* Adjust based on your design */
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.8); /* Light background with transparency */
+  border-radius: 10px; /* Optional: add rounded corners */
+  text-align: center;
+  flex: 1; /* Allow items to grow and shrink equally */
+  margin: 0 10px; /* Add some margin between items */
+}
+
+.featured-item-image {
+  width: 100%;
+  max-width: 200px; /* Adjust based on your design */
+  height: auto;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  border: 2px solid #000000; /* Blue border */
+}
+
+.featured-item-info h3 {
+  margin: 0.5rem 0;
+  color: #000000; /* Red text */
+}
+
+.featured-item-info p {
+  margin: 0.5rem 0;
+  text-align: left; /* Ensure paragraph text is left-aligned */
+}
+
+.featured-item-info button {
+  background-color: #ff0000; /* Red background */
+  color: #fff; /* White text */
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto; /* Center-align button */
+}
+
+.featured-item-info button:hover {
+  background-color: #007bff; /* Blue on hover */
+}

@@ -1,0 +1,110 @@
+/* AboutUs.css */
+.about-us {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff; /* White background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.about-us h2, .about-us h3 {
+  color: #007bff; /* Blue text */
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 16px;
+  color: #333;
+  text-align: left;
+}
+
+.faq-section {
+  margin: 20px 0;
+}
+
+.faq {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.faq h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #007bff; /* Blue text */
+}
+
+.faq p {
+  font-size: 16px;
+  color: #333;
+}
+
+.events-table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+.events-table th, .events-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.events-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.events-table td {
+  background-color: #f9f9f9;
+}
+
+.feedback-form {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.feedback-form .button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff; /* Blue background */
+  color: #fff; /* White text */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.feedback-form .button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.feedback-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.feedback-list li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
